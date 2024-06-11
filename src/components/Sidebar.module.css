@@ -1,0 +1,96 @@
+.sidebar {
+
+    width: 250px;
+ 
+    background-color: #333;
+ 
+    color: #fff;
+ 
+    padding: 20px;
+ 
+    position: fixed;
+ 
+    height: 100vh; /* Make the sidebar full height */
+ 
+    overflow: auto; /* Ensure scrolling within the sidebar if content overflows */
+ 
+  }
+ 
+  
+ 
+  .sidebar h1 {
+ 
+    font-size: 30px;
+ 
+    text-align: center;
+ 
+    color: red;
+ 
+  }
+ 
+  
+ 
+  .sidebar nav ul {
+ 
+    list-style-type: none;
+ 
+    padding: 0;
+ 
+  }
+ 
+  
+ 
+  .sidebar nav ul li {
+ 
+    display: flex;
+ 
+    align-items: center;
+ 
+    padding: 10px;
+ 
+    cursor: pointer;
+ 
+    color: #ccc;
+ 
+    background-color: #444;
+ 
+    margin: 10px 0;
+ 
+    border-radius: 15px;
+ 
+    transition: background-color 0.3s, color 0.3s;
+ 
+  }
+ 
+  
+ 
+  .sidebar nav ul li:hover {
+ 
+    color: #fff;
+ 
+    background-color: #555;
+ 
+  }
+ 
+  
+ 
+  .sidebar nav ul li.active {
+ 
+    color: red;
+ 
+    background-color: #555;
+ 
+  }
+ 
+  
+ 
+  .icon {
+ 
+    margin-right: 10px;
+ 
+    width: 23px;  /* Set a fixed width */
+ 
+    height: 20px; /* Set a fixed height */
+ 
+  }
+ 

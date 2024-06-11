@@ -1,0 +1,79 @@
+.homeSection {
+
+    display: flex;
+ 
+    justify-content: space-between;
+ 
+    align-items: flex-start;
+ 
+    background-color: #000000;
+ 
+    color: white;
+ 
+    padding: 50px;
+ 
+    padding-top: 100px;  
+ 
+  }
+ 
+  
+ 
+  .intro {
+ 
+    display: flex;
+ 
+    justify-content: space-between;
+ 
+    align-items: flex-start;
+ 
+    width: 100%;
+ 
+  }
+ 
+  
+ 
+  .info {
+ 
+    max-width: 60%;
+ 
+    font-size: 30px;
+ 
+  }
+ 
+  
+ 
+  .nameHighlight {
+ 
+    color: red;
+ 
+  }
+ 
+  
+ 
+  .titleHighlight {
+ 
+    color: red;
+ 
+  }
+ 
+  
+ 
+  .profilePicture {
+ 
+    flex-shrink: 0;
+ 
+    margin-left: 20px;
+ 
+  }
+ 
+  
+ 
+  .profilePicture img {
+ 
+    width: 350px; 
+ 
+    border-radius: 10px;
+ 
+  }
+ 
+  

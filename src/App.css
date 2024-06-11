@@ -1,0 +1,829 @@
+.app-container {
+
+  display: flex;
+ 
+  background-color: #000000;
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar {
+ 
+  width: 250px;
+ 
+  background-color: #333;
+ 
+  color: #fff;
+ 
+  padding: 20px;
+ 
+  position: fixed;
+ 
+  height: 100vh; 
+ 
+  overflow: auto; 
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar h1 {
+ 
+  font-size: 45px;
+ 
+  text-align: center;
+ 
+  color: red;
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar nav ul {
+ 
+  list-style-type: none;
+ 
+  padding: 0;
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar nav ul li {
+ 
+  display: flex;
+ 
+  align-items: center;
+ 
+  padding: 10px;
+ 
+  cursor: pointer;
+ 
+  color: #ccc;
+ 
+  background-color: #444;
+ 
+  margin: 10px 0;
+ 
+  border-radius: 15px;
+ 
+  transition: background-color 0.3s, color 0.3s;
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar nav ul li:hover {
+ 
+  color: #fff;
+ 
+  background-color: #555;
+ 
+ }
+ 
+ 
+ 
+ 
+ .sidebar nav ul li.active {
+ 
+  color: red;
+ 
+  background-color: #555;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .icon {
+ 
+  margin-right: 10px;
+ 
+  width: 23px;  
+ 
+  height: 20px; 
+ 
+ }
+ 
+ 
+ 
+ 
+ .content {
+ 
+  padding: 20px;
+ 
+  margin-left: 270px; 
+ 
+  flex-grow: 1;
+ 
+ }
+ 
+ 
+ 
+ 
+ section {
+ 
+  padding: 1px 0;
+ 
+  border-bottom: 1px solid #000000;
+ 
+ }
+ 
+ 
+ 
+ 
+ section h2 {
+ 
+  font-size: 45px;
+ 
+  max-width: 100%;
+ 
+ }
+ 
+ 
+ 
+ 
+ .home-section {
+ 
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  justify-content: flex-start;
+ 
+  background-color: #000000;
+ 
+  color: white;
+ 
+  padding: 50px;
+ 
+  padding-top: 100px;  
+ 
+ }
+ 
+ 
+ 
+ 
+ .intro {
+ 
+  display: flex;
+ 
+  justify-content: space-between;
+ 
+  align-items: flex-start;
+ 
+  width: 100%;
+ 
+ }
+ 
+ 
+ 
+ 
+ .info {
+ 
+  max-width: 60%;
+ 
+  font-size: 30px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .name-highlight {
+ 
+  color: red;
+ 
+ }
+ 
+ 
+ 
+ 
+ .title-highlight {
+ 
+  color: red;
+ 
+ }
+ 
+ 
+ 
+ 
+ .profile-picture {
+ 
+  flex-shrink: 0;
+ 
+  margin-left: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .profile-picture img {
+ 
+  width: 500px; 
+ 
+  position: absolute; 
+ 
+  top: 200px;
+ 
+  right: 100px;
+ 
+  border-radius: 10px;
+ 
+ }
+ 
+ 
+ 
+ 
+ /* About Section */
+ 
+ .about-section {
+ 
+  background-color: #000000;
+ 
+  color: white;
+ 
+  padding: 50px;
+ 
+  height: fit-content;
+ 
+ }
+ 
+ 
+ 
+ 
+ .about-header {
+ 
+  color: red;
+ 
+  font-size: 36px;
+ 
+ }
+ 
+ .about-intro{
+ 
+  font-size: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-section {
+ 
+  margin: 0px 0;
+ 
+ }
+ 
+ 
+ 
+ 
+ .section-header-container {
+ 
+  display: flex;
+ 
+  align-items: center;
+ 
+  justify-content: space-between;
+ 
+ }
+ 
+ 
+ 
+ 
+ .section-header {
+ 
+  color: red;
+ 
+  font-size: 24px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-section button1 {
+ 
+  color: white;
+ 
+  border: none;
+ 
+  padding: 0px 0px;
+ 
+  cursor: pointer;
+ 
+  position: absolute;
+ 
+  right: 865px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-section button1:hover {
+ 
+  background-color: #272727;
+ 
+  border-radius: 20px;
+ 
+ }
+ 
+ .collapsible-section button2 {
+ 
+  color: white;
+ 
+  border: none;
+ 
+  padding: 0px 0px;
+ 
+  cursor: pointer;
+ 
+  position: absolute;
+ 
+  right: 780px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-section button2:hover {
+ 
+  background-color: #272727;
+ 
+  border-radius: 20px;
+ 
+ }
+ 
+ .collapsible-section button3 {
+ 
+  color: white;
+ 
+  border: none;
+ 
+  padding: 0px 0px;
+ 
+  cursor: pointer;
+ 
+  position: absolute;
+ 
+  right: 790px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-section button3:hover {
+ 
+  background-color: #272727;
+ 
+  border-radius: 20px;
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ .collapsible-content {
+ 
+  margin-top: 0px;
+ 
+ }
+ 
+ 
+ 
+ 
+ /* Services Section */
+ 
+ .services-section {
+ 
+  background-color: #000000;
+ 
+  color: white;
+ 
+  padding: 50px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .services-header {
+ 
+  color: red;
+ 
+  font-size: 36px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .offer-header {
+ 
+  font-size: 30px;
+ 
+  margin-top: 30px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .services-container {
+ 
+  display: flex;
+ 
+  justify-content: space-around;
+ 
+  margin-top: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .service-box {
+ 
+  background-color: white;
+ 
+  color: black;
+ 
+  padding: 20px;
+ 
+  border-radius: 25px;
+ 
+  width: 250px;
+ 
+  height: 450px;
+ 
+  text-align: center;
+ 
+ }
+ 
+ 
+ 
+ 
+ .service-box h4 {
+ 
+  color: red;
+ 
+  margin-top: 20px;
+ 
+ }
+ 
+ .service-box p {
+ 
+  text-align: left;
+ 
+  font-size: 14px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .service-icon {
+ 
+  width: 110px;
+ 
+  height: 80px;
+ 
+ }
+ 
+ .service-icon1 {
+ 
+  width: 70px;
+ 
+  height: 80px;
+ 
+ }
+ 
+ /* Portfolio Section */
+ 
+ .portfolio-section {
+ 
+  background-color: #000000;
+ 
+  color: white;
+ 
+  padding: 50px;
+ 
+  height: fit-content;
+ 
+ }
+ 
+ 
+ 
+ 
+ .portfolio-header {
+ 
+  color: red;
+ 
+  font-size: 36px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .portfolio-images {
+ 
+  display: flex;
+ 
+  justify-content: space-around;
+ 
+  margin-top: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .portfolio-item {
+ 
+  text-align: center;
+ 
+  margin: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .portfolio-icon {
+ 
+  width: 150px;
+ 
+  height: auto;
+ 
+  transition: transform 0.3s ease;
+ 
+ }
+ 
+ .portfolio-icon-web {
+ 
+  width: 530px;
+ 
+  height: auto;
+ 
+  transition: transform 0.3s ease;
+ 
+ }
+ 
+ .portfolio-icon:hover {
+ 
+  transform: scale(1.1); 
+ 
+ }
+ 
+ .portfolio-icon-web:hover {
+ 
+  transform: scale(1.1); 
+ 
+ }
+ 
+ 
+ 
+ 
+ .projects-header {
+ 
+  font-size: 30px;
+ 
+  margin-top: 50px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project {
+ 
+  display: flex;
+ 
+  margin-top: 30px;
+ 
+ }
+ 
+ .project1 {
+ 
+  display: flex;
+ 
+  margin-top: 30px;
+ 
+  padding-top: 100px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project-image {
+ 
+  width: 200px;
+ 
+  height: auto;
+ 
+  margin-right: 20px;
+ 
+ }
+ 
+ .project-image-web {
+ 
+  width: 550px;
+ 
+  height: 350px;
+ 
+  margin-right: 20px;
+ 
+ }
+ 
+ .project-details {
+ 
+  max-width: 800px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project-details h4 {
+ 
+  color: red;
+ 
+  font-size: 25px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project-details p {
+ 
+  font-size: 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project-details a {
+ 
+  color: red;
+ 
+  text-decoration: none;
+ 
+ }
+ 
+ 
+ 
+ 
+ .project-details a:hover {
+ 
+  text-decoration: underline;
+ 
+ }
+ 
+ /* Contact section */
+ 
+ .contact-section {
+ 
+  background-color: #000000;
+ 
+  color: white;
+ 
+  padding: 50px;
+ 
+  text-align: center;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-header {
+ 
+  color: red;
+ 
+  font-size: 36px;
+ 
+  text-align: left;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-subheader {
+ 
+  font-size: 24px;
+ 
+  margin: 20px 0;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-text {
+ 
+  font-size: 30px;
+ 
+  color: rgb(255, 255, 255);
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-container {
+ 
+  display: flex;
+ 
+  justify-content: center;
+ 
+  align-items: center;
+ 
+  margin-top: 30px;
+ 
+  background-color: white;
+ 
+  border-radius: 25px;
+ 
+  padding: 20px;
+ 
+  width: 80%;
+ 
+  margin-left: auto;
+ 
+  margin-right: auto;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-item {
+ 
+  display: flex;
+ 
+  flex-direction: column;
+ 
+  align-items: center;
+ 
+  margin: 0 20px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-icon {
+ 
+  width: auto;
+ 
+  height: 67px;
+ 
+  margin-bottom: 10px;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-item p,
+ 
+ .contact-item a {
+ 
+  font-size: 18px;
+ 
+  color: black;
+ 
+  text-decoration: none;
+ 
+ }
+ 
+ 
+ 
+ 
+ .contact-item a:hover {
+ 
+  text-decoration: underline;
+ 
+ }
+ 
+ 
